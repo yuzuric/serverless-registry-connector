@@ -1,0 +1,7 @@
+# serverless-registry-connector configuration
+model: ${MIMO_MODEL:-mimo-7b}
+api_key: ${MIMO_API_KEY}
+mimo_api_base: ${MIMO_API_BASE:-https://platform.xiaomimimo.com/v1}
+max_parallel: 4
+metrics_port: 9090
+scrape_interval_sec: 15
